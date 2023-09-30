@@ -1,0 +1,9 @@
+days = int(input("Enter Days :--> "))
+d = days
+year = int(days / 365)
+days = int(days % 365)
+month = int(days / 30)
+days = int(days % 30)
+week = int(days / 7)
+days = int(days % 7)
+print(d, " Days = ", year," Year, ", month, " Month, ", week, " Week and ", days, " days")
